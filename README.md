@@ -1,4 +1,4 @@
-My work on the chapters from Bjarne Stroustrup's [Programming - Principles and Practice Using C++, Second Edition] (https://www.stroustrup.com/programming.html) **Part III: Data and Algorithms**
+My work on the chapters from Bjarne Stroustrup's [Programming - Principles and Practice Using C++, Second Edition](https://www.stroustrup.com/programming.html) **Part III: Data and Algorithms**
 
 ## Progress
 
