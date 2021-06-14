@@ -1,7 +1,9 @@
 My work on the chapters from Bjarne Stroustrup's [Programming - Principles and Practice Using C++, Second Edition] (https://www.stroustrup.com/programming.html) **Part III: Data and Algorithms**
 
 ## Progress
-[ ] **Part III: Data and Algorithms**
+
+**Part III: Data and Algorithms**
+
     - [X] Chapter 17: Vector and Free Store
       - [X] Drill
       - [X] Exercises
@@ -16,8 +18,7 @@ My work on the chapters from Bjarne Stroustrup's [Programming - Principles and P
       - [ ] Exercises
     - [ ] Chapter 21: Algorithms and Maps
       - [ ] Drill
-      - [ ] Exercises
----      
+      - [ ] Exercises      
       
 ## Contributions
 
