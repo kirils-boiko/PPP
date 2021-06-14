@@ -2,8 +2,8 @@ My work on the chapters from Bjarne Stroustrup's [Programming - Principles and P
 
 ## Progress
 [ ] **Part III: Data and Algorithms**
-    - [x] Chapter 17: Vector and Free Store
-      - [ ] Drill
+    - [X] Chapter 17: Vector and Free Store
+      - [X] Drill
       - [ ] Exercises
     - [ ] Chapter 18: Vectors and Arrays
       - [ ] Drill
