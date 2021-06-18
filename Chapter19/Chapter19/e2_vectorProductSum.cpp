@@ -16,20 +16,16 @@ public:
 		std::exception{ "inconsistent sizes of vectors" } {}
 };
 
-class Type_error : public std::exception {
-public:
-	Type_error() :
-		std::exception{ "implicit conversions of vector types are disallowed;" } {}
-};
-
-template<typename T, typename U> T sum_of_product(std::vector<T>& v1, std::vector<U>& v2)
+template<typename T, typename U> double sum_of_product(std::vector<T>& v1, std::vector<U>& v2)
 {
+	static_assert(std::is_arithmetic<T>::value, "type T must be numeric");
+	static_assert(std::is_arithmetic<U>::value, "type U must be numeric");
+
 	if (v1.size() != v2.size())
 		throw Size_error{};
-	if (!std::is_same<T, U>::value)
-		throw Type_error{};
 
-	T sum{ 0 };
+	double sum{ 0 };
+	
 	for (int i = 0; i < v1.size(); i++)
 		sum += v1[i] * v2[i];
 	return sum;
@@ -48,10 +44,10 @@ int main()
 try {
 	std::vector<int> v1{ 10, 20, 30, 40, 50 };
 	std::vector<int> v2{ 2, 2, 2, 2, 2 };
-	std::vector<double> v3{ 1, 1, 1, 1, 1 };
+	std::vector<double> v3{ 1.5, 1, 1, 1, 1 };
 	std::vector<double> v4{ 1, 2, 3, 4, 5 };
 
-	double sum = sum_of_product(v1, v2);
+	double sum = sum_of_product(v1, v3);
 
 	print_vector(std::cout, v1);
 	std::cout << std::endl;

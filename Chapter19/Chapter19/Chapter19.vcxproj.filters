@@ -23,7 +23,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="e4_Link.cpp">
+    <ClCompile Include="e16_small_vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
