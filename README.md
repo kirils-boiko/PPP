@@ -7,12 +7,12 @@ My work on the chapters from Bjarne Stroustrup's [Programming - Principles and P
     - [X] Chapter 17: Vector and Free Store
       - [X] Drill
       - [X] Exercises
-    - [ ] Chapter 18: Vectors and Arrays
-      - [ ] Drill
+    - [X] Chapter 18: Vectors and Arrays
+      - [X] Drill
       - [ ] Exercises
-    - [ ] Chapter 19: Vector, Templates and Exceptions
-      - [ ] Drill
-      - [ ] Exercises
+    - [X] Chapter 19: Vector, Templates and Exceptions
+      - [X] Drill
+      - [X] Exercises
     - [ ] Chapter 20: Containers and Iterators
       - [ ] Drill
       - [ ] Exercises
