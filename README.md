@@ -13,8 +13,8 @@ My work on the chapters from Bjarne Stroustrup's [Programming - Principles and P
     - [X] Chapter 19: Vector, Templates and Exceptions
       - [X] Drill
       - [X] Exercises
-    - [ ] Chapter 20: Containers and Iterators
-      - [ ] Drill
+    - [X] Chapter 20: Containers and Iterators
+      - [X] Drill
       - [ ] Exercises
     - [ ] Chapter 21: Algorithms and Maps
       - [ ] Drill
