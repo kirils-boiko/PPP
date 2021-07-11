@@ -1,0 +1,19 @@
+﻿  d_vector_more.cpp
+C:\Dev\PPAP\Chapter21\Chapter21\d_vector_more.cpp(44,20): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\PPAP\Chapter21\Chapter21\d_vector_more.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\PPAP\Chapter21\Chapter21\d_vector_more.cpp(39): message : see reference to function template instantiation 'void print_vector<double>(std::vector<double,std::allocator<double>> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(4421,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(4457): message : see reference to function template instantiation '_OutIt *std::_Copy_unchecked<double*,int*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _InIt=double *
+          ]
+C:\Dev\PPAP\Chapter21\Chapter21\d_vector_more.cpp(42): message : see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Ty=double,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  Chapter21.vcxproj -> C:\Dev\PPAP\Chapter21\Debug\Chapter21.exe

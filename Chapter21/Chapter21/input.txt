@@ -1,0 +1,1 @@
+This tutorial walks you through the training and using of a machine learning neural network model to classify newsgroup posts into twenty different categories. This makes use of a classical dataset in machine learning, often used for educational purposes.
